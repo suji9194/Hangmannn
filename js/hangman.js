@@ -1,18 +1,11 @@
 var programming_languages = [
-	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-	"c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-	"ruby"
+	"Monday",
+	"Tuesday",
+	"Wedensday",
+	"Thursday",
+	"Friday",
+	"Saturday",
+	"Sunday",
 ]
 
 let answer = '';
@@ -22,7 +15,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+  answer = what_day_is_it[Math.floor(Math.random() * programming_languages.length)];
 }
 
 function generateButtons() {
