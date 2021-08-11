@@ -1,4 +1,4 @@
-var programming_languages = [
+var what_day_is_it = [
 	"Monday",
 	"Tuesday",
 	"Wedensday",
@@ -15,7 +15,7 @@ let guessed = [];
 let wordStatus = null;
 
 function randomWord() {
-  answer = what_day_is_it[Math.floor(Math.random() * what_day_is_it.length)];
+  answer = what_day_is_it[Math.floor(fun.random() * what_day_is_it.length)];
 }
 
 function generateButtons() {
