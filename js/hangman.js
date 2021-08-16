@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var programming_languages = [
 	"walmart",
   "Amazon",
@@ -105,35 +104,3 @@ document.getElementById('maxWrong').innerHTML = maxWrong;
 randomWord();
 generateButtons();
 guessedWord();
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=2.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Bootstrap 4 CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-  <title>Hangman</title>
-</head>
-<body>
-<div class="container p-3 my-3 bg-primary text-white">
-  <h1 class="text-center">HangMan</h1>
-  <h2 class="text-center">Top 20 Fortune Company</h1>
-  <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
-  <div class="text-center">
-    <img id='work' src="./images/workk.jpeg" alt="">
-    <img id='hangmanPic' src="./images/0.jpg" alt="">
-    <p>Time To Guess!</p>
-    <p id="wordSpotlight">The word to be guessed</p>
-    <div id="keyboard"></div>
-    <button class="btn btn-info" onClick="reset()">Restart</button>
-  </div> 
-</div>
-
-<script src='./js/hangman.js'></script>
-</body>
-</html>
->>>>>>> 0742be604b7a57667eca315bd1abfb3c69510829
